@@ -1,0 +1,28 @@
+1.  npm init -y
+2.  npm i express concurrently
+3.  npm i nodemon --save-dev
+4.   "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js"
+      },
+5.  touch server.js
+6.  code server.js
+7.  server.js implement node server
+8.  open new terminal and install React
+9.  npx create-react-app client
+10. open client folder and package.json
+11. in package.json define "proxy": "http://localhost:5000"
+12. cd client /move inside client folder/
+13. run react server: npm start
+14. client/src create components folder
+15. inside components create new folder customers
+16. inside customers folder create new file Customers.jsx, Customers.css
+17. inside Customers.jsx create basic react structure
+18. inside Customers.jsx create state
+19. inside package.json file script: "client": "npm start --prefix client"
+                                     "dev": "concurrently \"npm run server\" \"npm run client\""
+20. To START application: npm run dev
+21. npm i node-fetch
+22. implement backend/routes/apiUsers.js module and iport to the server.js module
+23. add material library : npm i @material-ui/icons
+                           npm install @material-ui/core
