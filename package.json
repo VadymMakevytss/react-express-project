@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "config": "^3.3.6",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "react-script": "^2.0.5",
+    "react-scripts": "^4.0.3"
   }
 }
